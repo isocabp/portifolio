@@ -13,12 +13,12 @@ header {
   padding: 2%;
   align-items: center;
   background-color: #d2c4df;
-  position: fixed;
+  
 }
 
 .tittle {
   font-family: "Updock", cursive;
-  font-size: 30px;
+  font-size: 35px;
   text-decoration: none;
   font-weight: bold;
   color: #544f59;
@@ -42,3 +42,58 @@ a {
 .navbar li {
   margin-left: 5%;
 }
+
+body {
+  background-color: #f1f0f3;
+  width: 100%;
+}
+
+#sobre {
+  display: flex;
+  justify-content: space-around;
+  margin-top: 3%;
+}
+
+.left-about {
+  width: 30%;
+  margin-left: 15%;
+  
+  
+}
+
+.little-text {
+  font-family: "Cormorant Garamond", serif;
+  font-size: 27px;
+  margin-left: 6%;
+}
+
+.name {
+  font-family: "Cormorant Garamond", serif;
+  font-weight: 700;
+  font-size: 75px;
+  margin-left: 3%;
+}
+
+p {
+  font-family: "Cormorant Garamond", serif;
+  font-size: 25px;
+  font-weight: bold;
+  width: 100%;
+  
+}
+
+.right-about {
+  display: flex;
+  width: 80vw;
+  justify-content: space-around;
+  
+
+}
+
+img {
+  max-width: 70%;
+  max-height: 38%;  
+  border-radius: 10%;
+   
+}
+
