@@ -50,50 +50,44 @@ body {
 
 #sobre {
   display: flex;
-  justify-content: space-around;
   margin-top: 3%;
 }
 
 .left-about {
-  width: 30%;
-  margin-left: 15%;
-  
-  
+  margin-left: 12%;
+  margin-right: 10%;
+  width: 100%;
+
 }
 
 .little-text {
   font-family: "Cormorant Garamond", serif;
   font-size: 27px;
-  margin-left: 6%;
+  
 }
 
 .name {
   font-family: "Cormorant Garamond", serif;
   font-weight: 700;
   font-size: 75px;
-  margin-left: 3%;
+  
 }
 
 p {
   font-family: "Cormorant Garamond", serif;
   font-size: 25px;
   font-weight: bold;
-  width: 100%;
-  
+  width: 100%; 
+  margin-top: 1%;
 }
 
 .right-about {
-  display: flex;
-  width: 80vw;
-  justify-content: space-around;
-  
-
+  margin-left: 20%;
 }
 
 img {
   max-width: 70%;
-  max-height: 38%;  
-  border-radius: 10%;
-   
+  max-height: 70%;  
+  border-radius: 10%;  
 }
 
