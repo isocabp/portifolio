@@ -52,6 +52,7 @@ a:hover {
 body {
   background-color: #f1f0f3;
   width: 100%;
+  
 }
 
 #sobre {
@@ -82,7 +83,7 @@ body {
   
 }
 
-p {
+.p-resume {
   font-family: "Cormorant Garamond", serif;
   font-size: 25px;
   font-weight: bold;
@@ -114,3 +115,22 @@ p {
   border-radius: 10%;  
 }
 
+#about {
+  display: flex;
+  flex-direction: column;
+  font-family: "Cormorant Garamond", serif;
+}
+
+.title-about {
+  font-size: 38px;
+  font-weight: 700;
+  align-items: center;
+  padding-left: 15%;
+}
+
+.p-about {
+  font-size: 25px;
+  font-weight: bold;
+  padding: 1% 15%;
+  width: 95%;
+}
