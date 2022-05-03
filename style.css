@@ -3,6 +3,7 @@
   padding: 0;
   list-style: none;
   box-sizing: border-box;
+  
 }
 
 header {
@@ -29,6 +30,7 @@ nav {
   font-family: "Cormorant Garamond", serif;
   font-size: 25px;
   font-weight: bold;
+  
 }
 
 a {
@@ -55,10 +57,12 @@ body {
   
 }
 
-#sobre {
+#resume {
   display: flex;
   margin-top: 3%;
-  padding: 5%;
+  padding-top: 5%;
+  padding-left: 5%;
+  padding-right: 5%;
 }
 
 .left-about {
@@ -98,6 +102,34 @@ body {
   justify-content: space-around; 
 }
 
+.git-contact {
+  transition: all 0.5s;
+  cursor: pointer;
+}
+
+.git-contact:hover {
+  -webkit-transform: scale(1.5);
+  transform: scale(1.5);
+}
+.li-contact {
+  transition: all 0.5s;
+  cursor: pointer;
+}
+
+.li-contact:hover {
+  -webkit-transform: scale(1.5);
+  transform: scale(1.5);
+}
+.insta-contact {
+  transition: all 0.5s;
+  cursor: pointer;
+}
+
+.insta-contact:hover {
+  -webkit-transform: scale(1.5);
+  transform: scale(1.5);
+}
+
 .right-about {
   margin-left: 20%;
 }
@@ -119,6 +151,18 @@ body {
   display: flex;
   flex-direction: column;
   font-family: "Cormorant Garamond", serif;
+  margin: 1vw 7vw;
+  padding: 3vw;
+  width: 80vw;
+  border-radius: 2vw;
+  background-color: white; 
+  transition: all 0.5s;
+}
+
+#about:hover {
+  cursor: pointer;
+  box-shadow: 8px 8px 5px   #b2b9ba9a
+
 }
 
 .title-about {
@@ -126,6 +170,7 @@ body {
   font-weight: 700;
   align-items: center;
   padding-left: 15%;
+  color:#B06CE0
 }
 
 .p-about {
@@ -133,4 +178,40 @@ body {
   font-weight: bold;
   padding: 1% 15%;
   width: 95%;
+}
+
+#skills {
+  display: flex;
+  flex-direction: column;
+  font-family: "Cormorant Garamond", serif;
+  margin: 1vw 7vw;
+  padding: 3vw;
+  width: 80vw;
+  border-radius: 2vw;
+  background-color: white; 
+  transition: all 0.5s;
+}
+
+#skills:hover {
+  cursor: pointer;
+  box-shadow: 8px 8px 5px   #b2b9ba9a
+}
+
+.title-skills {
+  font-size: 38px;
+  font-weight: 700;
+  align-items: center;
+  padding-left: 15%;
+  color:#B06CE0
+}
+
+.sub-title {
+  padding-left: 15%;
+  padding-top: 2%;
+  font-size: 25px;
+}
+
+.skills-item {
+  display: flex;
+  width: 100%;
 }
